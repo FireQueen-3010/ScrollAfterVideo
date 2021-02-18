@@ -1,0 +1,10 @@
+#Vid{
+   height:35rem;
+   width: 50rem;
+}
+body{
+    /* background-color: grey; */
+    align-items: center;
+    text-align: center;
+    color: green;
+}

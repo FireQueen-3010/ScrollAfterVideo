@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <video id="Vid" width="320" height="176" controls>
+            <source src="coffee.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+         <div>
+            <script>
+                //storing the video element through its id
+                       var v = document.getElementById("Vid");
+                //adding the autoplay feature
+                       v.autoplay = true;
+                       v.load();
+                       //hiding the scroller while video is playing
+                        v.onplaying = function() {
+                        document.body.style.overflow = 'hidden';
+                            };
+                            v.onended = function() { //executes only when the video ends
+                            document.body.style.overflow = ''; //enabling the scroller 
+                            document.getElementById("next").scrollIntoView(); //scrolling to the next element by linking to its Id
+                        };
+             </script>
+             
+    
+           <h2 id="next">Welcome to GeeksForGeeks</h2>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, rem quis laboriosam delectus esse corporis quasi libero possimus commodi, provident doloremque ea est eius molestiae accusamus omnis iste ipsa cupiditate?</p>            
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, rem quis laboriosam delectus esse corporis quasi libero possimus commodi, provident doloremque ea est eius molestiae accusamus omnis iste ipsa cupiditate?</p>            
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, rem quis laboriosam delectus esse corporis quasi libero possimus commodi, provident doloremque ea est eius molestiae accusamus omnis iste ipsa cupiditate?</p>            
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, rem quis laboriosam delectus esse corporis quasi libero possimus commodi, provident doloremque ea est eius molestiae accusamus omnis iste ipsa cupiditate?</p>            
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore deserunt ea voluptatum sit quae placeat sunt, saepe repellat, accusamus dolore, odit eveniet recusandae itaque ut quidem rem fuga! A nobis sint sunt est quisquam sapiente facilis quam veniam maiores.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quae maxime deserunt consectetur aliquam laudantium quidem. Optio temporibus pariatur tempore corporis, enim dicta vitae aspernatur sit delectus ipsum mollitia inventore dolorem eos modi earum non eaque. Cum non animi ab!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sint quia atque magni iure non hic debitis odit, velit cupiditate fugit earum voluptatibus tenetur illum, voluptate magnam ad mollitia quisquam officia. Cumque, in rerum! Vitae cum quae fuga voluptates ipsum maiores rerum amet eum esse alias perferendis, quisquam magnam, cumque earum minima sit, architecto accusantium eaque nemo perspiciatis praesentium laborum ducimus eveniet. Quae, necessitatibus, maxime distinctio tenetur voluptatem perspiciatis voluptates praesentium non, similique neque dolore laborum vitae. Voluptatibus delectus tenetur neque, fugiat, tempora rerum enim ratione doloribus praesentium sed dolorem! Debitis nam ullam commodi doloremque pariatur voluptas veritatis beatae nobis.</p>
+            </div>
+     </body>
+</html>
